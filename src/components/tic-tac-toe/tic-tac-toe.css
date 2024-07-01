@@ -1,0 +1,57 @@
+.wrapper h1 {
+  /* color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 img {
+  margin-inline: 6px;
+  height: 35px;
+  width: 35px;
+}
+
+.wrapper {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 10px;
+}
+
+.wrapper .block-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.block-container .row {
+  display: flex;
+  gap: 2px;
+}
+
+.block {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: red;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+}
